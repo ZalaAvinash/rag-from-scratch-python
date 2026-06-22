@@ -174,6 +174,18 @@ The strict system prompt is the difference between RAG and "search-augmented hal
 
 ---
 
+## 📐 Architecture
+
+See [docs/architecture.md](docs/architecture.md) for the full data-flow diagram, design rationale, and known failure modes.
+
+---
+
+## 📸 Sample output
+
+See [docs/sample-output.md](docs/sample-output.md) for real CLI captures — including a question the model correctly refuses to answer.
+
+---
+
 ## 🤔 Why I built this
 
 Most RAG tutorials skip the parts that actually matter: chunker parameters, prompt construction, and source attribution. This project is small enough to read in one sitting but covers the real mechanics end-to-end. Use it as:
