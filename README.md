@@ -1,3 +1,12 @@
+```
+______  ___  _____
+| ___ \/ _ \|  __ \
+| |_/ / /_\ \ |  \/
+|    /|  _  | | __
+| |\ \| | | | |_\ \
+\_| \_\_| |_/\____/
+```
+
 # RAG From Scratch (Python)
 
 A small, readable, **fully local** Retrieval-Augmented Generation pipeline in ~500 lines of Python. No cloud APIs, no API keys, no surprise bills. Reads PDFs, chunks them, embeds with a local model, stores them in a real vector DB, and answers questions grounded in the document.
