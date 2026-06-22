@@ -1,0 +1,36 @@
+# .NET / C# — N/A
+# Node — N/A
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RAG runtime data
+chroma_db/
+data/
+!data/.gitkeep
+.env
+.env.local
